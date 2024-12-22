@@ -1,0 +1,1265 @@
+.rectangulo {
+    width: 1350px; 
+    height: 152px; 
+    background-color: #FF6200; 
+    margin: 20px auto; 
+    border: 2px solid rgba(0, 0, 0, 0); 
+    transform: translate(-8px, -20px); 
+}
+.logo {
+    width: 126px; 
+    height: auto; 
+    position: relative; 
+    top: 10px; 
+    left: 80px; 
+}
+.menu {
+    width: 40px; 
+    height: auto; 
+    position: relative; 
+    top: 50px; 
+    left: -166px; 
+}
+.user {
+    width: 60px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 56px; /* Opcional: mueve hacia abajo */
+    left: 1010px; /* Opcional: mueve hacia la izquierda */
+}
+.Shopping {
+    width: 60px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 60px; /* Opcional: mueve hacia abajo */
+    left: 1010px; /* Opcional: mueve hacia la izquierda */
+}
+.rectangulo1 {
+    position: absolute;
+    background-color: white;
+    height: 40px; /* Tamaño ajustable */
+    width: 920px; /* Tamaño ajustable */
+    border-radius: 15px; /* Curvatura ajustable */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: move;
+    transition: transform 0.2s ease;
+    top: 100px; /* Opcional: mueve hacia abajo */
+    left: 212px; /* Opcional: mueve hacia la izquierda */
+  }
+  .lupa {
+    width: 36px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -94px; /* Opcional: mueve hacia abajo */
+    left: 1040px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-rectangulo2 {
+    position: absolute;
+    background-color: #EC0000;
+    width: 1360px; /* Ancho del cuadrado */
+    height: 602px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 155px; /* Opcional: mueve hacia abajo */
+    left: -10px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-cuadrado1 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 274px; /* Ancho del cuadrado */
+    height: 310px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 180px; /* Opcional: mueve hacia abajo */
+    left: 848px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-cuadrado2 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 274px; /* Ancho del cuadrado */
+    height: 310px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 180px; /* Opcional: mueve hacia abajo */
+    left: 508px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-rectangulo3 {
+    position: absolute;
+    background-color: #EC0000;
+    width: 210px; /* Ancho del cuadrado */
+    height: 38px; /* Altura del cuadrado */
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 430px; /* Opcional: mueve hacia abajo */
+    left: 876px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-rectangulo4 {
+    position: absolute;
+    background-color: #EC0000;
+    width: 210px; /* Ancho del cuadrado */
+    height: 38px; /* Altura del cuadrado */
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 430px; /* Opcional: mueve hacia abajo */
+    left: 536px; /* Opcional: mueve hacia la izquierda */
+}
+#pack1-text {
+    position: absolute;
+    top: 444px; /* Colocarlo visualmente en la posición deseada */
+    left: 610px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: lexend, medium;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#pack2-text {
+    position: absolute;
+    top: 444px; /* Colocarlo visualmente en la posición deseada */
+    left: 952px;
+    font-size: 20px;
+    color: rgb(254, 255, 255);
+    font-family: lexend, medium;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#descuento1-text {
+    position: absolute;
+    top: 490px; /* Colocarlo visualmente en la posición deseada */
+    left: 500px;
+    font-size: 130px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#desc1-text {
+    position: absolute;
+    top: 570px; /* Colocarlo visualmente en la posición deseada */
+    left: 760px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#CAPTURA-text {
+    position: absolute;
+    top: 644px; /* Colocarlo visualmente en la posición deseada */
+    left: 502px;
+    font-size: 40px;
+    color: rgb(254, 255, 255);
+    font-family: lexend, regular;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.camara {
+    width: 440px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 7px; /* Opcional: mueve hacia abajo */
+    left: 30px; /* Opcional: mueve hacia la izquierda */
+}
+.niña {
+    width: 420px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -340px; /* Opcional: mueve hacia abajo */
+    left: -17px; /* Opcional: mueve hacia la izquierda */
+}
+.familia {
+    width: 220px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -340px; /* Opcional: mueve hacia abajo */
+    left: -1px; /* Opcional: mueve hacia la izquierda */
+}
+.luces1 {
+    width: 620px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -794px; /* Opcional: mueve hacia abajo */
+    left: -20px; /* Opcional: mueve hacia la izquierda */
+}
+.luces2 {
+    width: 502px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -960px; /* Opcional: mueve hacia abajo */
+    left: 220px; /* Opcional: mueve hacia la izquierda */
+}
+.baston1 {
+    width: 160px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -810px; /* Opcional: mueve hacia abajo */
+    left: -1100px; /* Opcional: mueve hacia la izquierda */
+}
+.baston2 {
+    width: 160px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1050px; /* Opcional: mueve hacia abajo */
+    left: 1040px; /* Opcional: mueve hacia la izquierda */
+}
+.cuerno {
+    width: 140px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1200px; /* Opcional: mueve hacia abajo */
+    left: 720px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-rectangulo5 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 1360px; /* Ancho del cuadrado */
+    height: 660px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 712px; /* Opcional: mueve hacia abajo */
+    left: -10px; /* Opcional: mueve hacia la izquierda */
+}
+.luz {
+    width: 900px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1000px; /* Opcional: mueve hacia abajo */
+    left: 100px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-rectangulo6 {
+    position: absolute;
+    background-color: #EC0000;
+    width: 274px; /* Ancho del cuadrado */
+    height: 600px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 14px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 742px; /* Opcional: mueve hacia abajo */
+    left: 848px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-rectangulo7 {
+    position: absolute;
+    background-color: #EC0000;
+    width: 274px; /* Ancho del cuadrado */
+    height: 600px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 14px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 742px; /* Opcional: mueve hacia abajo */
+    left: 508px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-rectangulo8 {
+    position: absolute;
+    background-color: #EC0000;
+    width: 274px; /* Ancho del cuadrado */
+    height: 600px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 14px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 742px; /* Opcional: mueve hacia abajo */
+    left: 168px; /* Opcional: mueve hacia la izquierda */
+}
+.gato1 {
+    width: 200px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1150px; /* Opcional: mueve hacia abajo */
+    left: -706px; /* Opcional: mueve hacia la izquierda */
+}
+.perro1 {
+    width: 200px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1154px; /* Opcional: mueve hacia abajo */
+    left: -570px; /* Opcional: mueve hacia la izquierda */
+}
+.perro2 {
+    width: 200px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1408px; /* Opcional: mueve hacia abajo */
+    left: 880px; /* Opcional: mueve hacia la izquierda */
+}
+#precio1-text {
+    position: absolute;
+    top: 760px; /* Colocarlo visualmente en la posición deseada */
+    left: 180px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#desde1-text {
+    position: absolute;
+    top: 750px; /* Colocarlo visualmente en la posición deseada */
+    left: 180px;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}    
+#precio2-text {
+    position: absolute;
+    top: 760px; /* Colocarlo visualmente en la posición deseada */
+    left: 520px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#desde2-text {
+    position: absolute;
+    top: 750px; /* Colocarlo visualmente en la posición deseada */
+    left: 520px;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#precio3-text {
+    position: absolute;
+    top: 760px; /* Colocarlo visualmente en la posición deseada */
+    left: 860px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#desde3-text {
+    position: absolute;
+    top: 750px; /* Colocarlo visualmente en la posición deseada */
+    left: 860px;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#CAPAS-text {
+    position: absolute;
+    top: 886px; /* Colocarlo visualmente en la posición deseada */
+    left: 242px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#DISFRACES-text {
+    position: absolute;
+    top: 886px; /* Colocarlo visualmente en la posición deseada */
+    left: 544px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#ACCESORIOS-text {
+    position: absolute;
+    top: 886px; /* Colocarlo visualmente en la posición deseada */
+    left: 864px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo9 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 198px; /* Ancho del cuadrado */
+    height: 44px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 14px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 1252px; /* Opcional: mueve hacia abajo */
+    left: 206px; /* Opcional: mueve hacia la izquierda */
+}
+#VERMAS1-text {
+    position: absolute;
+    top: 1259px; /* Colocarlo visualmente en la posición deseada */
+    left:244px;
+    font-size: 28px;
+    color: #EC0000;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo10 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 198px; /* Ancho del cuadrado */
+    height: 44px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 14px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 1252px; /* Opcional: mueve hacia abajo */
+    left: 546px; /* Opcional: mueve hacia la izquierda */
+}
+#VERMAS2-text {
+    position: absolute;
+    top: 1259px; /* Colocarlo visualmente en la posición deseada */
+    left:586px;
+    font-size: 28px;
+    color: #EC0000;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo11 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 198px; /* Ancho del cuadrado */
+    height: 44px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 14px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 1252px; /* Opcional: mueve hacia abajo */
+    left: 886px; /* Opcional: mueve hacia la izquierda */
+}
+#VERMAS3-text {
+    position: absolute;
+    top: 1259px; /* Colocarlo visualmente en la posición deseada */
+    left:922px;
+    font-size: 28px;
+    color: #EC0000;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo12 {
+    position: absolute;
+    background-color: #5BD8F4;
+    width: 1360px; /* Ancho del cuadrado */
+    height: 420px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 1376px; /* Opcional: mueve hacia abajo */
+    left: -10px; /* Opcional: mueve hacia la izquierda */
+}
+.ola {
+    width: 480px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1490px; /* Opcional: mueve hacia abajo */
+    left: 800px; /* Opcional: mueve hacia la izquierda */
+}
+.gato2 {
+    width: 210px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1860px; /* Opcional: mueve hacia abajo */
+    left: 420px; /* Opcional: mueve hacia la izquierda */
+}
+.perro3 {
+    width: 300px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1770px; /* Opcional: mueve hacia abajo */
+    left: 40px; /* Opcional: mueve hacia la izquierda */
+}
+.pelota {
+    width: 150px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1760px; /* Opcional: mueve hacia abajo */
+    left: -1040px; /* Opcional: mueve hacia la izquierda */
+}
+#looks-text {
+    position: absolute;
+    top: 1540px; /* Colocarlo visualmente en la posición deseada */
+    left: 60px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#disfruta-text {
+    position: absolute;
+    top: 1639px; /* Colocarlo visualmente en la posición deseada */
+    left:56px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo13 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 198px; /* Ancho del cuadrado */
+    height: 44px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 14px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 1706px; /* Opcional: mueve hacia abajo */
+    left: 50px; /* Opcional: mueve hacia la izquierda */
+}
+#VERMAS4-text {
+    position: absolute;
+    top: 1714px; /* Colocarlo visualmente en la posición deseada */
+    left:86px;
+    font-size: 28px;
+    color: #FF6200;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo14 {
+    position: absolute;
+    background-color: #FF6200;
+    width: 1360px; /* Ancho del cuadrado */
+    height: 400px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius:0px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 1792px; /* Opcional: mueve hacia abajo */
+    left: -10px; /* Opcional: mueve hacia la izquierda */
+}
+#contacto-text {
+    position: absolute;
+    top: 1866px; /* Colocarlo visualmente en la posición deseada */
+    left:86px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.correo {
+    width: 90px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1690px; /* Opcional: mueve hacia abajo */
+    left: 54px; /* Opcional: mueve hacia la izquierda */
+}
+#correo-text {
+    position: absolute;
+    top: 1928px; /* Colocarlo visualmente en la posición deseada */
+    left:138px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.cel {
+    width: 60px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1620px; /* Opcional: mueve hacia abajo */
+    left: -32px; /* Opcional: mueve hacia la izquierda */
+}
+#cel-text {
+    position: absolute;
+    top: 2000px; /* Colocarlo visualmente en la posición deseada */
+    left:138px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.ubicacion {
+    width: 50px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1505px; /* Opcional: mueve hacia abajo */
+    left: -88px; /* Opcional: mueve hacia la izquierda */
+}
+#ubicacion-text {
+    position: absolute;
+    top: 2082px; /* Colocarlo visualmente en la posición deseada */
+    left:138px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#medios-text {
+    position: absolute;
+    top: 1866px; /* Colocarlo visualmente en la posición deseada */
+    left:908px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.visa {
+    width: 80px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1690px; /* Opcional: mueve hacia abajo */
+    left: 668px; /* Opcional: mueve hacia la izquierda */
+}
+.master {
+    width: 80px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1690px; /* Opcional: mueve hacia abajo */
+    left: 650px; /* Opcional: mueve hacia la izquierda */
+}
+.dinero {
+    width: 80px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1690px; /* Opcional: mueve hacia abajo */
+    left: 632px; /* Opcional: mueve hacia la izquierda */
+}
+.yape {
+    width: 34px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1690px; /* Opcional: mueve hacia abajo */
+    left: 618px; /* Opcional: mueve hacia la izquierda */
+}
+#redes-text {
+    position: absolute;
+    top: 1986px; /* Colocarlo visualmente en la posición deseada */
+    left:908px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.facebook {
+    width: 40px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1540px; /* Opcional: mueve hacia abajo */
+    left: 388px; /* Opcional: mueve hacia la izquierda */
+}
+.instagram {
+    width: 40px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1540px; /* Opcional: mueve hacia abajo */
+    left: 414px; /* Opcional: mueve hacia la izquierda */
+}
+.tiktok {
+    width: 40px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: -1540px; /* Opcional: mueve hacia abajo */
+    left: 440px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-rect1 {
+    position: absolute;
+    background-color: #FF6200;
+    width: 530px; /* Ancho del cuadrado */
+    height: 810px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius:20px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 262px; /* Opcional: mueve hacia abajo */
+    left: 100px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-rect2 {
+    position: absolute;
+    background-color: #FF6200;
+    width: 530px; /* Ancho del cuadrado */
+    height: 810px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius:20px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 262px; /* Opcional: mueve hacia abajo */
+    left: 720px; /* Opcional: mueve hacia la izquierda */
+}
+.perrogalleta {
+    width: 400px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 58px; /* Opcional: mueve hacia abajo */
+    left: 160px; /* Opcional: mueve hacia la izquierda */
+}
+.perroarbol {
+    width: 400px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 58px; /* Opcional: mueve hacia abajo */
+    left: 374px; /* Opcional: mueve hacia la izquierda */
+}
+#galleta-text {
+    position: absolute;
+    top: 860px; /* Colocarlo visualmente en la posición deseada */
+    left:200px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+    
+}
+#costo1-text {
+    position: absolute;
+    top: 900px; /* Colocarlo visualmente en la posición deseada */
+    left:280px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo15 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 210px; /* Ancho del cuadrado */
+    height: 54px; /* Altura del cuadrado */
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-radius: 24px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 960px; /* Opcional: mueve hacia abajo */
+    left: 246px; /* Opcional: mueve hacia la izquierda */
+}
+#agregar1-text {
+    position: absolute;
+    top: 974px; /* Colocarlo visualmente en la posición deseada */
+    left:286px;
+    font-size: 28px;
+    color: #FF6200;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#arbol-text {
+    position: absolute;
+    top: 860px; /* Colocarlo visualmente en la posición deseada */
+    left:860px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+    
+}
+#costo2-text {
+    position: absolute;
+    top: 900px; /* Colocarlo visualmente en la posición deseada */
+    left:904px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo16 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 210px; /* Ancho del cuadrado */
+    height: 54px; /* Altura del cuadrado */
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-radius: 24px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 960px; /* Opcional: mueve hacia abajo */
+    left: 874px; /* Opcional: mueve hacia la izquierda */
+}
+#agregar2-text {
+    position: absolute;
+    top: 974px; /* Colocarlo visualmente en la posición deseada */
+    left:914px;
+    font-size: 28px;
+    color: #FF6200;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rect3 {
+    position: absolute;
+    background-color: #FF6200;
+    width: 530px; /* Ancho del cuadrado */
+    height: 810px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius:20px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 1160px; /* Opcional: mueve hacia abajo */
+    left: 100px; /* Opcional: mueve hacia la izquierda */
+}
+.dynamic-rect4 {
+    position: absolute;
+    background-color: #FF6200;
+    width: 530px; /* Ancho del cuadrado */
+    height: 810px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius:20px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 1160px; /* Opcional: mueve hacia abajo */
+    left: 720px; /* Opcional: mueve hacia la izquierda */
+}
+.duende {
+    width: 400px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 960px; /* Opcional: mueve hacia abajo */
+    left: -650px; /* Opcional: mueve hacia la izquierda */
+}
+.reno {
+    width: 400px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 428px; /* Opcional: mueve hacia abajo */
+    left: 774px; /* Opcional: mueve hacia la izquierda */
+}
+#duende-text {
+    position: absolute;
+    top: 1760px; /* Colocarlo visualmente en la posición deseada */
+    left:256px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+    
+}
+#costo3-text {
+    position: absolute;
+    top: 1800px; /* Colocarlo visualmente en la posición deseada */
+    left:280px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo17 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 210px; /* Ancho del cuadrado */
+    height: 54px; /* Altura del cuadrado */
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-radius: 24px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 1862px; /* Opcional: mueve hacia abajo */
+    left: 246px; /* Opcional: mueve hacia la izquierda */
+}
+#agregar3-text {
+    position: absolute;
+    top: 1876px; /* Colocarlo visualmente en la posición deseada */
+    left:286px;
+    font-size: 28px;
+    color: #FF6200;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#reno-text {
+    position: absolute;
+    top: 1760px; /* Colocarlo visualmente en la posición deseada */
+    left:940px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+    
+}
+#costo4-text {
+    position: absolute;
+    top: 1800px; /* Colocarlo visualmente en la posición deseada */
+    left:904px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo18 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 210px; /* Ancho del cuadrado */
+    height: 54px; /* Altura del cuadrado */
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-radius: 24px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 1862px; /* Opcional: mueve hacia abajo */
+    left: 874px; /* Opcional: mueve hacia la izquierda */
+}
+#agregar4-text {
+    position: absolute;
+    top: 1876px; /* Colocarlo visualmente en la posición deseada */
+    left:914px;
+    font-size: 28px;
+    color: #FF6200;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo19 {
+    position: absolute;
+    background-color: #FF6200;
+    width: 210px; /* Ancho del cuadrado */
+    height: 54px; /* Altura del cuadrado */
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-radius: 24px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 2100px; /* Opcional: mueve hacia abajo */
+    left: 560px; /* Opcional: mueve hacia la izquierda */
+}
+#pagina1-text {
+    position: absolute;
+    top: 2116px; /* Colocarlo visualmente en la posición deseada */
+    left:604px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rectangulo20 {
+    position: absolute;
+    background-color: #FF6200;
+    width: 1360px; /* Ancho del cuadrado */
+    height: 400px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius:0px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 2292px; /* Opcional: mueve hacia abajo */
+    left: -10px; /* Opcional: mueve hacia la izquierda */
+}
+#contacto2-text {
+    position: absolute;
+    top: 2370px; /* Colocarlo visualmente en la posición deseada */
+    left:83px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.correo2 {
+    width: 90px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 1050px; /* Opcional: mueve hacia abajo */
+    left: 54px; /* Opcional: mueve hacia la izquierda */
+}
+#correo2-text {
+    position: absolute;
+    top: 2431px; /* Colocarlo visualmente en la posición deseada */
+    left:138px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.cel2 {
+    width: 60px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 1120px; /* Opcional: mueve hacia abajo */
+    left: -32px; /* Opcional: mueve hacia la izquierda */
+}
+#cel2-text {
+    position: absolute;
+    top: 2504px; /* Colocarlo visualmente en la posición deseada */
+    left:138px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.ubicacion2 {
+    width: 50px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 1250px; /* Opcional: mueve hacia abajo */
+    left: -88px; /* Opcional: mueve hacia la izquierda */
+}
+#ubicacion2-text {
+    position: absolute;
+    top: 2600px; /* Colocarlo visualmente en la posición deseada */
+    left:138px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#medios2-text {
+    position: absolute;
+    top: 2370px; /* Colocarlo visualmente en la posición deseada */
+    left:908px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.visa2 {
+    width: 80px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 1050px; /* Opcional: mueve hacia abajo */
+    left: 668px; /* Opcional: mueve hacia la izquierda */
+}
+.master2 {
+    width: 80px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 1050px; /* Opcional: mueve hacia abajo */
+    left: 650px; /* Opcional: mueve hacia la izquierda */
+}
+.dinero2 {
+    width: 80px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 1050px; /* Opcional: mueve hacia abajo */
+    left: 632px; /* Opcional: mueve hacia la izquierda */
+}
+.yape2 {
+    width: 34px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top:1050px; /* Opcional: mueve hacia abajo */
+    left: 618px; /* Opcional: mueve hacia la izquierda */
+}
+#redes2-text {
+    position: absolute;
+    top: 2490px; /* Colocarlo visualmente en la posición deseada */
+    left:908px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.facebook2 {
+    width: 40px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 1200px; /* Opcional: mueve hacia abajo */
+    left: 388px; /* Opcional: mueve hacia la izquierda */
+}
+.instagram2 {
+    width: 40px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 1200px; /* Opcional: mueve hacia abajo */
+    left: 414px; /* Opcional: mueve hacia la izquierda */
+}
+.tiktok2 {
+    width: 40px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 1200px; /* Opcional: mueve hacia abajo */
+    left: 440px; /* Opcional: mueve hacia la izquierda */
+}
+.moño {
+    width: 400px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 58px; /* Opcional: mueve hacia abajo */
+    left: 160px; /* Opcional: mueve hacia la izquierda */
+}
+.gorro {
+    width: 400px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 58px; /* Opcional: mueve hacia abajo */
+    left: 374px; /* Opcional: mueve hacia la izquierda */
+}
+#moño-text {
+    position: absolute;
+    top: 860px; /* Colocarlo visualmente en la posición deseada */
+    left:250px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+    
+}
+#costo5-text {
+    position: absolute;
+    top: 900px; /* Colocarlo visualmente en la posición deseada */
+    left:330px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#gorro-text {
+    position: absolute;
+    top: 860px; /* Colocarlo visualmente en la posición deseada */
+    left:860px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none; 
+}
+#costo6-text {
+    position: absolute;
+    top: 900px; /* Colocarlo visualmente en la posición deseada */
+    left:960px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.bandana {
+    width: 400px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 960px; /* Opcional: mueve hacia abajo */
+    left: -650px; /* Opcional: mueve hacia la izquierda */
+}
+.chullo {
+    width: 400px; /* Tamaño del menú */
+    height: auto; /* Mantén las proporciones */
+    position: relative; /* Permite ajustes precisos */
+    top: 428px; /* Opcional: mueve hacia abajo */
+    left: 774px; /* Opcional: mueve hacia la izquierda */
+}
+#bandana-text {
+    position: absolute;
+    top: 1760px; /* Colocarlo visualmente en la posición deseada */
+    left:216px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+    
+}
+#costo7-text {
+    position: absolute;
+    top: 1800px; /* Colocarlo visualmente en la posición deseada */
+    left:320px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+#chullo-text {
+    position: absolute;
+    top: 1760px; /* Colocarlo visualmente en la posición deseada */
+    left:840px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+    
+}
+#costo8-text {
+    position: absolute;
+    top: 1800px; /* Colocarlo visualmente en la posición deseada */
+    left:944px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: lexend, BOLD;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Agrega un efecto suave al moverlo */
+    user-select: none;
+}
+.dynamic-rect9 {
+    position: absolute;
+    background-color: #FF6200;
+    width: 1060px; /* Ancho del cuadrado */
+    height: 540px; /* Altura del cuadrado */
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius:20px;
+    cursor: move;
+    transition: background-color 0.2s ease;
+    top: 262px; /* Opcional: mueve hacia abajo */
+    left: 130px; /* Opcional: mueve hacia la izquierda */
+}
